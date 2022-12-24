@@ -1,0 +1,26 @@
+:root {
+    --clr-btn: rgb(100, 0, 215);
+    --clr-btn-bg: bisque;
+  }
+
+.button {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 30px;
+    width: calc(100% - 30rem);
+    margin: auto;
+    padding: auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-btn);
+    background-color: var(--clr-btn-bg);
+    box-shadow: 0 0 0 0;
+    border: 1px solid;
+    border-radius:025em ;
+
+    -webkit-border-radius:025em ;
+    -moz-border-radius:025em ;
+    -ms-border-radius:025em ;
+    -o-border-radius:025em ;
+}
